@@ -1,10 +1,11 @@
 variable "AWS_REGION" {
   default = "us-east-1"
 }
+/*
 variable "PATH_TO_PRIVATE_KEY" {
   default = "yolu.pem"
 }
-
+*/
 variable "AMIS" {
   type = "map"
   default = {
