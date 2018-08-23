@@ -21,7 +21,7 @@ resource "aws_instance" "ctproject" {
         volume_type = "gp2"
         delete_on_termination = "true"
     }
-
+/*
   provisioner "file" {
     source = "script.sh"
     destination = "/tmp/script.sh"
@@ -39,7 +39,7 @@ connection {
 
   }
 }
-
+*/
 /*
 resource "aws_ebs_volume" "ebs-volume-1" {
     availability_zone = "us-east-1f"
